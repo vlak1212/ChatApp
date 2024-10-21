@@ -1,9 +1,8 @@
 package com.example.chatapp.models;
 
 import java.io.Serializable;
+import java.util.Date;
+
 public class User implements  Serializable {
-    public String name;
-    public String image;
-    public String email;
-    public String token;
+    public String name, image, email, token, id;
 }
